@@ -248,7 +248,9 @@ function _GetData() {
               td4 = document.createElement("td");
               td1.innerText = Object.values(label)[i];
               td2.innerText = Object.values(values)[i];
-              td3.innerText = Object.values(Employment)[i];
+              td3.innerText = Object.values(Employment)[i]; // I used this source to know how to round number:
+              // https://bobbyhadz.com/blog/javascript-round-number-to-two-decimal-places
+
               EmploymentRate = (Object.values(Employment)[i] / Object.values(values)[i] * 100).toFixed(2);
 
               if (EmploymentRate > 45) {

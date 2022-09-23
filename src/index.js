@@ -62,6 +62,13 @@ async function GetData() {
          
          
          
+         // I used this source to know how to round number:
+         
+         // https://bobbyhadz.com/blog/javascript-round-number-to-two-decimal-places
+         
+         
+         
+         
          var EmploymentRate= (Object.values(Employment)[i]/Object.values(values)[i]*100).toFixed(2)
          
          
