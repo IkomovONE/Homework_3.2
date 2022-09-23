@@ -68,6 +68,20 @@ td {
 }
 
 
+#green {
+    
+    background-color: #abffbd;
+    
+}
+
+
+#red {
+    
+    background-color: #ff9e9e;
+    
+}
+
+
 tr:nth-child(even) {
   background-color: #f2f2f2;
 }
